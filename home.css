@@ -1,0 +1,162 @@
+                        body {
+                            display: flex;
+                            flex-direction: row;
+                            background: rgb(121, 202, 216)
+                        }
+                        
+                        .lateral {
+                            display: flex;
+                            flex-direction: column;
+                            background: rgb(22, 41, 59);
+                            width: 400px;
+                            height: 900px;
+                            border-radius: 15px 0px 0px 15px;
+                        }
+                        
+                        .lateral img {
+                            border-radius: 15px;
+                            margin-left: 60px;
+                            margin-top: 30px;
+                        }
+                        
+                        .lateral h1 {
+                            font-family: 'Lobster Two', cursive;
+                            margin-left: 50px;
+                            color: rgb(33, 181, 250);
+                            font-size: 50px;
+                        }
+                        
+                        .lateral h2 {
+                            font-family: 'Oswald';
+                            color: white;
+                            width: 300px;
+                            margin-left: 50px;
+                            margin-top: -20px;
+                            font-size: 30px;
+                            margin-bottom: 60px;
+                        }
+                        
+                        .lateral ul {
+                            display: flex;
+                            flex-direction: column;
+                            font-family: 'Oswald';
+                        }
+                        
+                        .lateral a {
+                            text-decoration: none;
+                            color: rgb(64, 171, 243);
+                            font-size: 30px;
+                            margin-left: 30px;
+                        }
+                        
+                        .lateral li {
+                            all: unset;
+                            margin-bottom: 10px;
+                        }
+                        
+                        .center1 {
+                            display: flex;
+                            flex-direction: column;
+                            width: 80%;
+                            height: 900px;
+                            margin-left: 10px;
+                            background-image: url(./imagens/background5.jpg);
+                            border-radius: 0px 15px 15px 0px;
+                        }
+                        
+                        .fundo {
+                            background-color: rgba(250, 235, 215, 0.4);
+                            margin-left: 100px;
+                            width: 90%;
+                            height: 90%;
+                            margin-top: 40px;
+                            border-radius: 15px;
+                        }
+                        
+                        .one {
+                            font-family: 'Lobster Two', cursive;
+                            font-size: 60px;
+                            text-align: left;
+                            color: rgb(33, 181, 250);
+                            width: 800px;
+                            margin-left: 4%;
+                            margin-bottom: -20px;
+                            margin-top: 40px;
+                        }
+                        
+                        .two {
+                            font-family: 'Oswald';
+                            font-size: 40px;
+                            text-align: left;
+                            color: white;
+                            width: 800px;
+                            margin-left: 4%;
+                            margin-bottom: 60px;
+                        }
+                        
+                        .center1 ul {
+                            font-family: 'Oswald';
+                            font-size: 30px;
+                            color: rgb(199, 229, 243);
+                            margin-left: 4%;
+                        }
+                        
+                        .center1 li {
+                            display: flex;
+                            flex-direction: column;
+                        }
+                        
+                        .img1 {
+                            position: absolute;
+                            border-radius: 100px;
+                            border: solid 4px rgb(33, 181, 250);
+                            margin-left: 520px;
+                            margin-top: -110px;
+                        }
+                        
+                        .img2 {
+                            position: absolute;
+                            border-radius: 100px;
+                            border: solid 4px rgb(33, 181, 250);
+                            margin-left: 690px;
+                            margin-top: -100px;
+                        }
+                        
+                        .world {
+                            position: absolute;
+                            border-radius: 100px;
+                            border: solid 4px rgb(33, 181, 250);
+                            margin-left: 490px;
+                            margin-top: 20px;
+                        }
+                        
+                        .img3 {
+                            position: absolute;
+                            border-radius: 100px;
+                            border: solid 4px rgb(33, 181, 250);
+                            margin-left: 710px;
+                            margin-top: 20px;
+                        }
+                        
+                        .img4 {
+                            position: absolute;
+                            border-radius: 100px;
+                            border: solid 4px rgb(33, 181, 250);
+                            margin-left: 580px;
+                            margin-top: 60px;
+                        }
+                        
+                        .cubos p {
+                            font-family: 'Oswald';
+                            font-size: 18px;
+                            margin-left: 50px;
+                            color: white;
+                            margin-top: 60px;
+                        }
+                        
+                        .cubos a {
+                            position: absolute;
+                            border-radius: 10px;
+                            margin-left: -20px;
+                            margin-top: -40px;
+                        }

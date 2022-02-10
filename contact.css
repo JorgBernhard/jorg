@@ -1,0 +1,95 @@
+        body {
+            display: flex;
+            flex-direction: row;
+            background: rgb(121, 202, 216)
+        }
+        
+        .lateral {
+            display: flex;
+            flex-direction: column;
+            background: rgb(22, 41, 59);
+            width: 200px;
+            height: 900px;
+            border-radius: 15px 0px 0px 15px;
+        }
+        
+        .lateral ul {
+            display: flex;
+            flex-direction: column;
+            font-family: 'Oswald';
+            margin-top: 80px;
+        }
+        
+        .lateral a {
+            text-decoration: none;
+            color: rgb(64, 171, 243);
+            font-size: 30px;
+            margin-bottom: 60px;
+        }
+        
+        .lateral li {
+            all: unset;
+            margin-bottom: 10px;
+        }
+        
+        .center1 {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            height: 900px;
+            margin-left: 10px;
+            background-image: url(./imagens/background2.jpg);
+            border-radius: 0px 15px 15px 0px;
+        }
+        
+        .fundo {
+            background-color: rgba(250, 235, 215, 0.747);
+            margin-left: 100px;
+            width: 90%;
+            height: 90%;
+            margin-top: 40px;
+            border-radius: 15px;
+        }
+        
+        .fundo h1 {
+            font-family: 'Oswald';
+            font-size: 40px;
+            color: rgb(34, 79, 121);
+            margin-left: 100px;
+        }
+        
+        .fundo h3 {
+            font-family: 'Oswald';
+            font-size: 25px;
+            color: rgb(34, 79, 121);
+            margin-left: 102px;
+            word-wrap: normal;
+            width: 85%;
+        }
+        
+        .fundo a {
+            all: unset;
+            font-family: 'Oswald';
+            font-weight: bold;
+            font-size: 25px;
+            color: rgb(34, 79, 121);
+            margin-left: 102px;
+        }
+        
+        .fundo img {
+            position: absolute;
+            margin-top: 50px;
+            margin-left: 600px;
+            border-radius: 15px;
+            width: 40%;
+            height: 40%;
+        }
+        
+        .fundo a img {
+            position: absolute;
+            border-radius: 5px;
+            border: solid 2px rgb(64, 171, 243);
+            margin-left: 0px;
+            width: 200px;
+            height: 60px;
+        }
