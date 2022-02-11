@@ -20,16 +20,44 @@ body {
     margin-top: 80px;
 }
 
-.lateral a {
+.lateral li {
+    all: unset;
+}
+
+.home a {
     text-decoration: none;
     color: rgb(64, 171, 243);
     font-size: 30px;
-    margin-bottom: 60px;
+    margin-left: 10px;
 }
 
-.lateral li {
-    all: unset;
-    margin-bottom: 10px;
+.portfolio a {
+    text-decoration: none;
+    color: rgb(64, 171, 243);
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.curriculum a {
+    text-decoration: none;
+    color: rgb(64, 171, 243);
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.documents a {
+    text-decoration: none;
+    color: rgb(243, 171, 64);
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: rgb(64, 171, 243);
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 .center1 {

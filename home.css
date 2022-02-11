@@ -33,25 +33,54 @@
                             margin-left: 50px;
                             margin-top: -20px;
                             font-size: 30px;
-                            margin-bottom: 60px;
+                            margin-bottom: 30px;
                         }
                         
-                        .lateral ul {
+                        ul {
                             display: flex;
                             flex-direction: column;
                             font-family: 'Oswald';
                         }
                         
-                        .lateral a {
+                        .lateral li {
+                            all: unset;
+                            margin-bottom: 10px;
+                        }
+                        
+                        .home a {
+                            text-decoration: none;
+                            color: rgb(243, 171, 64);
+                            font-size: 30px;
+                            margin-left: 30px;
+                        }
+                        
+                        .portfolio a {
                             text-decoration: none;
                             color: rgb(64, 171, 243);
                             font-size: 30px;
                             margin-left: 30px;
                         }
                         
-                        .lateral li {
-                            all: unset;
-                            margin-bottom: 10px;
+                        .curriculum a {
+                            text-decoration: none;
+                            color: rgb(64, 171, 243);
+                            font-size: 30px;
+                            margin-left: 30px;
+                        }
+                        
+                        .documents a {
+                            text-decoration: none;
+                            color: rgb(64, 171, 243);
+                            font-size: 30px;
+                            margin-left: 30px;
+                        }
+                        
+                        .contact a {
+                            text-decoration: none;
+                            color: rgb(64, 171, 243);
+                            font-size: 30px;
+                            margin-left: 30px;
+                            margin-bottom: 20px;
                         }
                         
                         .center1 {
