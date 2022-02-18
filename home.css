@@ -1,191 +1,236 @@
-                        body {
-                            display: flex;
-                            flex-direction: row;
-                            background: rgb(121, 202, 216)
-                        }
-                        
-                        .lateral {
-                            display: flex;
-                            flex-direction: column;
-                            background: rgb(22, 41, 59);
-                            width: 400px;
-                            height: 900px;
-                            border-radius: 15px 0px 0px 15px;
-                        }
-                        
-                        .lateral img {
-                            border-radius: 15px;
-                            margin-left: 60px;
-                            margin-top: 30px;
-                        }
-                        
-                        .lateral h1 {
-                            font-family: 'Lobster Two', cursive;
-                            margin-left: 50px;
-                            color: rgb(33, 181, 250);
-                            font-size: 50px;
-                        }
-                        
-                        .lateral h2 {
-                            font-family: 'Oswald';
-                            color: white;
-                            width: 300px;
-                            margin-left: 50px;
-                            margin-top: -20px;
-                            font-size: 30px;
-                            margin-bottom: 30px;
-                        }
-                        
-                        ul {
-                            display: flex;
-                            flex-direction: column;
-                            font-family: 'Oswald';
-                        }
-                        
-                        .lateral li {
-                            all: unset;
-                            margin-bottom: 10px;
-                        }
-                        
-                        .home a {
-                            text-decoration: none;
-                            color: rgb(243, 171, 64);
-                            font-size: 30px;
-                            margin-left: 30px;
-                        }
-                        
-                        .portfolio a {
-                            text-decoration: none;
-                            color: rgb(64, 171, 243);
-                            font-size: 30px;
-                            margin-left: 30px;
-                        }
-                        
-                        .curriculum a {
-                            text-decoration: none;
-                            color: rgb(64, 171, 243);
-                            font-size: 30px;
-                            margin-left: 30px;
-                        }
-                        
-                        .documents a {
-                            text-decoration: none;
-                            color: rgb(64, 171, 243);
-                            font-size: 30px;
-                            margin-left: 30px;
-                        }
-                        
-                        .contact a {
-                            text-decoration: none;
-                            color: rgb(64, 171, 243);
-                            font-size: 30px;
-                            margin-left: 30px;
-                            margin-bottom: 20px;
-                        }
-                        
-                        .center1 {
-                            display: flex;
-                            flex-direction: column;
-                            width: 80%;
-                            height: 900px;
-                            margin-left: 10px;
-                            background-image: url(./imagens/background5.jpg);
-                            border-radius: 0px 15px 15px 0px;
-                        }
-                        
-                        .fundo {
-                            background-color: rgba(250, 235, 215, 0.4);
-                            margin-left: 100px;
-                            width: 90%;
-                            height: 92%;
-                            margin-top: 40px;
-                            border-radius: 15px;
-                        }
-                        
-                        .one {
-                            font-family: 'Lobster Two', cursive;
-                            font-size: 60px;
-                            text-align: left;
-                            color: rgb(33, 181, 250);
-                            width: 800px;
-                            margin-left: 4%;
-                            margin-bottom: -20px;
-                            margin-top: 40px;
-                        }
-                        
-                        .two {
-                            font-family: 'Oswald';
-                            font-size: 40px;
-                            text-align: left;
-                            color: white;
-                            width: 800px;
-                            margin-left: 4%;
-                            margin-bottom: 60px;
-                        }
-                        
-                        .center1 ul {
-                            font-family: 'Oswald';
-                            font-size: 30px;
-                            color: rgb(199, 229, 243);
-                            margin-left: 4%;
-                        }
-                        
-                        .center1 li {
-                            display: flex;
-                            flex-direction: column;
-                        }
-                        
-                        .img1 {
-                            position: absolute;
-                            border-radius: 100px;
-                            border: solid 4px rgb(33, 181, 250);
-                            margin-left: 520px;
-                            margin-top: -60px;
-                        }
-                        
-                        .img2 {
-                            position: absolute;
-                            border-radius: 100px;
-                            border: solid 4px rgb(33, 181, 250);
-                            margin-left: 690px;
-                            margin-top: 0px;
-                        }
-                        
-                        .world {
-                            position: absolute;
-                            border-radius: 100px;
-                            border: solid 4px rgb(33, 181, 250);
-                            margin-left: 490px;
-                            margin-top: 120px;
-                        }
-                        
-                        .img3 {
-                            position: absolute;
-                            border-radius: 100px;
-                            border: solid 4px rgb(33, 181, 250);
-                            margin-left: 710px;
-                            margin-top: 180px;
-                        }
-                        
-                        .img4 {
-                            position: absolute;
-                            border-radius: 100px;
-                            border: solid 4px rgb(33, 181, 250);
-                            margin-left: 580px;
-                            margin-top: 340px;
-                        }
-                        
-                        .cubos p {
-                            font-family: 'Oswald';
-                            font-size: 18px;
-                            margin-left: 50px;
-                            color: white;
-                            margin-top: 60px;
-                        }
-                        
-                        .cubos a {
-                            position: absolute;
-                            border-radius: 10px;
-                            margin-left: -20px;
-                            margin-top: -40px;
-                        }
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.background img {
+    position: absolute;
+    width: 100%;
+    height: 2000px;
+}
+
+.container .h1-primeiro {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-family: 'Oswald';
+    font-weight: 600;
+    font-size: 80px;
+    transform: rotate(270deg);
+    margin-left: -100px;
+    margin-top: 200px;
+    color: rgb(255, 255, 255);
+}
+
+.container .h1-segundo {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-family: 'Oswald';
+    font-weight: 600;
+    font-size: 80px;
+    transform: rotate(270deg);
+    margin-left: 140px;
+    margin-top: 300px;
+    color: rgb(255, 255, 255);
+}
+
+.container img {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 500px;
+    border-radius: 250px;
+}
+
+.container .full {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-family: 'Oswald';
+    font-size: 40px;
+    font-weight: lighter;
+    transform: rotate(270deg);
+    color: rgb(105, 255, 19);
+    margin-top: 280px;
+    margin-left: 200px;
+}
+
+.container .project {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-family: 'Oswald';
+    font-size: 40px;
+    font-weight: lighter;
+    transform: rotate(270deg);
+    color: rgb(105, 255, 19);
+    margin-top: 274px;
+    margin-left: 240px;
+}
+
+.container .logistic {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-family: 'Oswald';
+    font-size: 40px;
+    font-weight: lighter;
+    transform: rotate(270deg);
+    color: rgb(105, 255, 19);
+    margin-top: 289px;
+    margin-left: 300px;
+}
+
+.center h1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-family: 'Oswald';
+    font-weight: lighter;
+    font-size: 40px;
+    color: rgb(105, 255, 19);
+    margin-top: 60px;
+    margin-left: 700px;
+}
+
+.center h3 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-family: 'Oswald';
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgb(194, 192, 192);
+    margin-top: 180px;
+    margin-left: 700px;
+    width: 60%;
+}
+
+.education h1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-family: 'Oswald';
+    font-weight: lighter;
+    font-size: 40px;
+    color: rgb(105, 255, 19);
+    margin-top: 760px;
+    margin-left: 700px;
+}
+
+.education p {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-family: 'Oswald';
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgb(194, 192, 192);
+    margin-top: 880px;
+    margin-left: 700px;
+    width: 60%;
+}
+
+.experience h2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-family: 'Oswald';
+    font-weight: lighter;
+    font-size: 40px;
+    color: rgb(105, 255, 19);
+    margin-top: 980px;
+    margin-left: 700px;
+}
+
+.experience p {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-family: 'Oswald';
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgb(194, 192, 192);
+    margin-top: 1100px;
+    margin-left: 700px;
+    width: 60%;
+}
+
+.languages h2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-family: 'Oswald';
+    font-weight: lighter;
+    font-size: 40px;
+    color: rgb(105, 255, 19);
+    margin-top: 1200px;
+    margin-left: 700px;
+}
+
+.languages p {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-family: 'Oswald';
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgb(194, 192, 192);
+    margin-top: 1320px;
+    margin-left: 700px;
+    width: 60%;
+}
+
+.soft-skills h2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-family: 'Oswald';
+    font-weight: lighter;
+    font-size: 40px;
+    color: rgb(105, 255, 19);
+    margin-top: 580px;
+    margin-left: 60px;
+}
+
+.soft-skills p {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-family: 'Oswald';
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgb(194, 192, 192);
+    margin-top: 700px;
+    margin-left: 60px;
+    width: 60%;
+}
+
+.contact h2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-family: 'Oswald';
+    font-weight: lighter;
+    font-size: 40px;
+    color: rgb(105, 255, 19);
+    margin-top: 880px;
+    margin-left: 60px;
+}
+
+.contact h3 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-family: 'Oswald';
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgb(194, 192, 192);
+    margin-top: 1000px;
+    margin-left: 60px;
+    width: 60%;
+}
