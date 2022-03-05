@@ -1,6 +1,6 @@
 body {
     background: rgb(2, 1, 42);
-    background-image: url('/src/assets/background.svg');
+    background-image: url('../assets/background.svg');
  
 }
 .head {
