@@ -1,0 +1,191 @@
+body {
+    background: rgb(2, 1, 42);
+    background-image: url('/src/assets/background.svg');
+ 
+}
+.head {
+    display: flex;
+    flex-direction: row;
+}
+.eu {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 650px;
+    height: 250px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: rgb(253, 253, 253, 0.7);
+    border-radius: 20px;
+    box-shadow: 0 20px 20px 0 rgb(5, 2, 32);
+}
+.eu img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 15px solid rgb(13, 13, 102);
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.info h2 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Mulish', sans-serif;
+    color:rgb(13, 13, 102);
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.info span {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    color:rgb(221, 99, 28);
+    font-size: 24px;
+    margin-left: 40px;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 200px;
+    height: 510px;
+    margin-left: 30px;
+    margin-top: 320px;
+    background-color: rgb(253, 253, 253, 0.7);
+    border-radius: 20px;
+    box-shadow: 0 20px 20px 0 rgb(5, 2, 32);
+    cursor: pointer;
+}
+.menu a {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    color:rgb(13, 13, 102);
+    font-size: 24px;
+    margin-left: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.menu a:hover{
+        color: rgb(221, 99, 28);
+}
+.center {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 1000px;
+    height: 800px;
+    margin-left: 720px;
+    margin-top: 30px;
+    background-color: rgb(253, 253, 253, 0.7);
+    border-radius: 20px;
+    box-shadow: 0 20px 20px 0 rgb(5, 2, 32);
+}
+.center h2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 20px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    color:rgb(13, 13, 102);
+    font-size: 30px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.center p {
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    color:rgb(13, 13, 102);
+    margin-left:100px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.center img {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 500px;
+    margin-top: 160px;
+    margin-left: 50px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+.center a {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background-color:rgb(15, 15, 189);
+    margin-top: 700px;
+    margin-left: 50px;
+    padding: 10px 340px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.center a:hover{
+    background-color: rgb(221, 99, 28);
+}
+
+.mapa {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 400px;
+    height: 510px;
+    margin-left: 280px;
+    margin-top: 320px;
+    background-color: rgb(253, 253, 253, 0.7);
+    border-radius: 20px;
+    box-shadow: 0 20px 20px 0 rgb(5, 2, 32);
+    align-items: center;
+    justify-content: center;
+}
+.map img {
+    width: 360px;
+    height: 470px;
+    border-radius: 20px;
+ }
+.jorg img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid rgb(77, 77, 255);
+    margin-top: -160px;
+    margin-left: -20px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 1690px;
+    height: 10%;
+    margin-top: 860px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    background-color: rgb(253, 253, 253, 0.7);
+    border-radius: 20px;
+    box-shadow: 0 20px 20px 0 rgb(5, 2, 32);
+}
+.footer p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    color:rgb(13, 13, 102);
+    font-size: 20px;
+}
