@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(54, 54, 54); 
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(250, 134, 26);
+    align-items: center;
+    justify-content: space-between;
+         
+}
+.head a {
+    all: unset;
+    font-family: 'Mulish', sans-serif;   
+    font-weight: 800;
+    color: whitesmoke;
+    margin-right: 20px;
+    cursor: pointer;
+    padding:6px 30px ;
+    border-radius: 20px 0 20px 0;
+    border: 1px solid rgb(54, 54, 54, 0.9); 
+}
+.head a:hover{
+    background-color: rgb(54, 54, 54); 
+    color: whitesmoke;
+    border: 1px solid rgb(54, 54, 54); 
+}
+.head-2 img {
+    all: unset;
+    width: 40px;
+    height: 30px;
+    margin-left:10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.head-2 img:hover{
+    transform: rotate(40deg);
+}
+.jorg img {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 80px;
+    border-radius: 10px;
+    border:4px solid whitesmoke;
+    transform: rotate(20deg);
+    box-shadow: 0 20px 20px 0 rgb(5, 2, 32); 
+}
+.food img {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin-top: 420px;
+    margin-left: 70px;
+    border-radius: 10px;
+    border:4px solid whitesmoke;
+    transform: rotate(-20deg);
+    box-shadow: 0 20px 20px 0 rgb(5, 2, 32); 
+}
+.center {
+    margin-left: 400px;
+    margin-top: 80px;
+    width: 70%;
+    height:940px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0 20px 20px 0 rgb(5, 2, 32); 
+}
+.center h2 {
+    font-family: 'Mulish', sans-serif;   
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(54, 54, 54); 
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.center p {
+    font-family: 'Mulish', sans-serif;  
+    width: 90%; 
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(54, 54, 54); 
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.rights{
+    width: 100%;
+    height: 30px;
+    background-color:rgb(250, 134, 26);
+    text-align: center;
+    margin-top: 40px;
+}
+.rights span {
+    position:sticky;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: whitesmoke;
+}
