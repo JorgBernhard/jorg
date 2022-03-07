@@ -95,12 +95,22 @@ body {
 }
 .center2 img {
     position: static;
-    margin-left: 700px;
+    margin-left: 640px;
     margin-top: -696px;
     width: 900px;
     height: 700px;
     border-radius: 20px;
     box-shadow: 0 20px 20px 0 rgb(5, 2, 32);
+}
+.jorg2 img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: -140px;
+    margin-left: 1220px;
+    border: 2px solid rgb(250, 134, 26);
+    transform: rotate(20deg);
 }
 .rights{
     width: 100%;
